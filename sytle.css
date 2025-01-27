@@ -2,7 +2,7 @@
     margin: 0;
     padding:0;
     border: border-box ;
-    
+    font-family: 'Domaine Display Narrow', sans-serif;
 }
 /* header sectin */
 .nav{
@@ -46,7 +46,7 @@
 li:hover{
     background-color: white;
     color: #1a2e35;
-    border: 2px solid #1a2e35;
+    border: 1px solid #1a2e35;
     border-radius: 5px;
     padding: 3px;
 }
@@ -75,10 +75,6 @@ li:hover{
     width: 15px;
     pointer-events: none; 
   }
-.search:hover{
-    
-
-}
 
 /* hero sectin*/
 .hero-class{
@@ -153,4 +149,73 @@ li:hover{
     background-repeat: no-repeat;
     background-position: center; 
    
+}
+/* experience section */
+.experience-section{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+
+}
+.exp-img-cont{
+    height: 100%;
+    width: 40%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+#exp-img{
+    height: 300px;
+    width: 300px;
+    background-image: url(/images/experience-img.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.exp-cont{
+    height: 100%;
+    width: 60%;
+    margin-left: 50px;
+
+}
+.exp-cont h1{
+    margin-top: 75px;
+}
+.exp-cont p{
+    font-size:18px;
+    margin-top: 25px;
+    margin-right: 180px;
+}
+.exp-button{
+    margin-top: 50px;
+}
+.exp-button button{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Domaine Display Narrow', sans-serif;
+}
+#e1{                                               
+    color: white;
+    background-color: #ff4f5a;
+  
+}
+#e1:hover{                                               
+    color: #ff4f5e;
+    background-color: white;
+    border: 1px solid #ff4f5e ;
+}
+#e2{                                               
+   margin-left: 15px;
+   background-color: #1a2e35;
+   color: white;
+}
+#e2:hover{                                               
+    color: #1a2e35;
+    background-color: white;
+    border: 1px solid #1a2e35;
 }
