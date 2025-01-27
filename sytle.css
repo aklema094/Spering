@@ -266,3 +266,35 @@ li:hover{
 .boxitem h3{
     margin-top: 20px;
 }
+.about-section{
+      
+    height: 500px;
+}
+.about-image{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+#imgId{
+    height: 400px;
+    width: 500px;
+    background-image: url("images/about-img.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+.about-taxt{
+    height: 40%;
+}
+.about-button{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Domaine Display Narrow', sans-serif;
+    margin-bottom: 20px;
+    margin-left: 570px;
+}
