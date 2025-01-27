@@ -2,12 +2,14 @@
     margin: 0;
     padding:0;
     border: border-box ;
+    
 }
 .hero-class{
-    height: 500px;
+    height: 400px;
     display: flex;
     justify-content: space-evenly;
     background-color: white;
+    font-family: 'Domaine Display Narrow', sans-serif;
 }
 .left{
     background-color: #1a2e35;
@@ -18,13 +20,29 @@
 
 }
 .left-content{
-    margin-left: 120px;
-    margin-top: 150px;
+    margin-left: 130px;
+    margin-top: 80px;
 
 }
 .left-content h4{
     margin-right: 150px;
 
+}
+.content-button{
+    margin-top: 40px;
+   
+}
+.content-button button{
+    height: 45px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    font-family: 'Domaine Display Narrow', sans-serif;
+}
+#b1{                                               
+    color: white;
+    background-color: #ff4f5a;
 }
 .right{
     background-color: #1cbbb4;
