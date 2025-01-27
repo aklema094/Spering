@@ -38,11 +38,27 @@
     font-size: 20px;
     font-weight: bold;
     border: none;
+    border-radius: 2px;
     font-family: 'Domaine Display Narrow', sans-serif;
 }
 #b1{                                               
     color: white;
     background-color: #ff4f5a;
+  
+}
+#b1:hover{                                               
+    color: #ff4f5e;
+    background-color: #1a2e35;
+    border: 2px solid #ff4f5e;
+}
+#b2{                                               
+   margin-left: 10px;
+  
+}
+#b2:hover{                                               
+    color: white;
+    background-color: #1a2e35;
+    border: 2px solid white;
 }
 .right{
     background-color: #1cbbb4;
