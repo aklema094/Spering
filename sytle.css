@@ -268,7 +268,7 @@ li:hover{
 }
 .about-section{
       
-    height: 500px;
+    height: 650px;
 }
 .about-image{
     height: 60%;
@@ -297,4 +297,35 @@ li:hover{
     font-family: 'Domaine Display Narrow', sans-serif;
     margin-bottom: 20px;
     margin-left: 570px;
+}
+.work{
+    height: 500px;
+    width: 100%;
+}
+.work-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.work-left{
+   height: 100%;
+   width: 45%;
+   border: 2px solid black;
+}
+.work-right{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+}
+.work-img{
+    height: 80%;
+    width: 100%;
+    background-image: url("images/freelance-img.jpg");
+    background-size: cover;
+
 }
