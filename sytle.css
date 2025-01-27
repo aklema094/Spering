@@ -41,7 +41,7 @@
     display: inline;
     margin-right: 30px;
     border: none;
-
+    
 }
 li:hover{
     background-color: white;
@@ -50,6 +50,36 @@ li:hover{
     border-radius: 5px;
     padding: 3px;
 }
+.search-container{
+    width: 35%;
+    display: flex;
+    position: relative;
+    margin-left: 130px;
+}
+.search{
+    height: 30px;
+    width: 100%;
+    background: none;
+    border: 2px solid white;
+    border-radius: 15px;
+    outline: none;
+    color: white;
+    padding-left: 10px;
+}
+#sicon {
+    position: absolute;
+    top: 32%;
+    right: 10px; 
+    transform: translateY(-50%);
+    height: 15px; 
+    width: 15px;
+    pointer-events: none; 
+  }
+.search:hover{
+    
+
+}
+
 /* hero sectin*/
 .hero-class{
     height: 400px;
@@ -67,8 +97,8 @@ li:hover{
 
 }
 .left-content{
-    margin-left: 130px;
-    margin-top: 80px;
+    margin-left: 150px;
+    margin-top: 50px;
 
 }
 .left-content h4{
