@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding:0;
+    border: border-box ;
+}
+.hero-class{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.left{
+    background-color: #1a2e35;
+    height: 100%;
+    width: 50%;
+    color: white;
+    display: inline;
+
+}
+.left-content{
+    margin-left: 120px;
+    margin-top: 150px;
+
+}
+.left-content h4{
+    margin-right: 150px;
+
+}
+.right{
+    background-color: #1cbbb4;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back-image{
+    height: 400px;
+    width: 400px;
+    background-image: url(/images/slider-img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+   
+}
