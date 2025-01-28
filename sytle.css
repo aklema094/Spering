@@ -299,7 +299,7 @@ li:hover{
     margin-left: 570px;
 }
 .work{
-    height: 500px;
+    height: 550px;
     width: 100%;
 }
 .work-container{
@@ -312,7 +312,6 @@ li:hover{
 .work-left{
    height: 100%;
    width: 45%;
-   border: 2px solid black;
 }
 .work-right{
     height: 100%;
@@ -328,4 +327,55 @@ li:hover{
     background-image: url("images/freelance-img.jpg");
     background-size: cover;
 
+}
+.div-container{
+    height: 100px;
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 10px;
+    display: flex;
+
+}
+
+.work-logo{
+    height: 100px;
+    width: 100px;
+    background-color: #1cbbb4;
+    border: 1px solid #1cbbb4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+.work-logo:hover{
+    background-color: #1a2e35;
+    border: 1px solid #1a2e35;
+}
+.logo-container{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+
+}
+.work-logo-img{
+    height: 10px;
+    width: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.div-text{
+    margin-left: 20px;
+    margin-top: 23px;
+}
+.div-text h4{
+
+    color: #ff4f5a;
+
+}
+.div-text h2{
+    color: #1a2e35;
+    margin-top: 5px;
 }
