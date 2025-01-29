@@ -419,5 +419,25 @@ li:hover{
 .imgrightpanal{
     margin-right: 20px;
 }
+.panal2{
+    height: 50%;
+}
+.panal3{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panal3 img{
+  height: 30px;
+  width: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 20px;
+}
+.panal3 h3{
+    margin-right: 20px;
+}
 
 
