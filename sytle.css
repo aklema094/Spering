@@ -379,3 +379,45 @@ li:hover{
     color: #1a2e35;
     margin-top: 5px;
 }
+.footer-container{
+    height: 300px;
+    width: 100%;
+    background-color: #1a2e35;
+}
+.panal1{
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-panal1{
+   
+    display: flex;
+    justify-content: start;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+.panal1-logo-left{
+    height: 50px;
+    width: 50px;
+    background-image: url("images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.left-panal1 h2{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.right-panal1{
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.imgrightpanal{
+    margin-right: 20px;
+}
+
+
