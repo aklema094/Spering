@@ -420,15 +420,45 @@ li:hover{
     margin-right: 20px;
 }
 .panal2{
-    height: 50%;
+    height: 55%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.diva1{
+    height: 100%;
+    width: 25%;
+    color: white;
+}
+.diva1 h3{
+    margin-top: 50px;
+ }
+ .diva1 .para{
+    margin-left: 20px;
+    text-align: justify;
+ }
+ .btnnn{                                               
+    color: white;
+    background-color: #ff4f5a;
+    width: 143px;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+  
+}
+.btnnn:hover{                                               
+    color: #ff4f5e;
+    background-color: #1a2e35;
+    border: 2px solid #ff4f5e;
 }
 .panal3{
-    height: 20%;
+    
+    height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.panal3 img{
+.panal3 .panal3img{
   height: 30px;
   width: 30px;
   background-size: contain;
@@ -439,5 +469,6 @@ li:hover{
 .panal3 h3{
     margin-right: 20px;
 }
+
 
 
