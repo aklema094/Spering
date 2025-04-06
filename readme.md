@@ -8,8 +8,7 @@
 ## 🚀 Features  
 - ✅ Clean and responsive UI  
 - ✅ Interactive layout using only HTML & CSS  
-- ✅ Includes landing page, service section, about, and contact  
-- ✅ Mobile-friendly and modern design  
+- ✅ Includes landing page, service section, about, and contact
 - ✅ Easy to customize for personal or commercial use  
 
 ---
